@@ -1,0 +1,8 @@
+b,Meat,10.0,10.0,10.0,10.0
+b,Cheese,10.0,10.0,10.0,10.0
+b,Bread,10.0,10.0,10.0,10.0
+f,Sandwich,Meat,1.00,Cheese,1.00,Bread,2.00
+b,Pizza-cheese,300.0,150.0,50.0,100.0
+b,Pizza-ham,400.0,250.0,50.0,100.0
+b,Pizza-bread,100.0,33.0,33.0,33.0
+f,Pizza,Pizza-cheese,5.00,Pizza-ham,5.00,Pizza-bread,1.00

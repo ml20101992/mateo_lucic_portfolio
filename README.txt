@@ -12,3 +12,8 @@ improvee the page. This whole work was done solely by me.
 Example 3:
 Thought exercise in NodeJS. The idea was to make an authorization/authentication element of a server, and to test it. There were some ideas
 of incorporating it further in a project I was working on, but they did not bear fruit.
+
+Example 5:
+Group task was to create a simple diet manager in Java while cramming in as much design patterns as we could.
+My work consists of creating controllers, models, creating basic view framework and implementing daily overview in addition
+to tying everything together.
