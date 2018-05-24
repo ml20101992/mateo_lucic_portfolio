@@ -1,0 +1,27 @@
+{
+  "name": "foundations_backend",
+  "version": "1.0.0",
+  "description": "Backend for foundations final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log(\"working\")",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ml20101992/foundations_project.git"
+  },
+  "author": "Mateo Lucic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ml20101992/foundations_project/issues"
+  },
+  "homepage": "https://github.com/ml20101992/foundations_project#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}

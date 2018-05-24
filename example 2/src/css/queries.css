@@ -1,0 +1,107 @@
+/*
+ Author         : Mateo Lucic <mxl3773@g.rit.edu>
+ Date                : 26.9.2017
+
+ TABLE OF CONTENTS
+ Big Tablet Up To 1200px
+ Small to Big Tablet: 768px-1023px
+ Small Phones: 0-480px
+*/
+
+
+
+/*
+768px-1023px
+*/
+@media only screen and (max-width: 1200px) {
+
+    .page_title{
+        width: 70%;
+    }
+    .navigation_links_container{
+        flex-direction: column-reverse;
+        width: 30%;
+        margin: 1% 0 1% 0;
+    }
+
+    .nav_link{
+        display: none;
+        height: 3em;
+        margin-bottom: 1%;
+    }
+
+    .nav_link i{
+        font-size: 2em;
+    }
+
+    #expand_button{
+        display: flex;
+    }
+
+    .gallery_container{
+        height: 20em;
+        flex-direction: column;
+    }
+    .gallery_row{
+        width: 100%;
+    }
+    .gallery_element{
+        width: 45%;
+
+    }
+
+    #hero_text h1{
+        font-size: 2em;
+    }
+
+    #hero_text h2{
+        font-size: 1.5em;
+    }
+
+    section p{
+        font-size: 1em;
+    }
+
+
+}
+
+
+
+
+/*
+Small Phones: 0-540px
+*/
+@media only screen and (max-width: 640px) {
+        .gallery_container{
+            height: 40em;
+            flex-direction: column;
+        }
+        .gallery_row{
+            width: 100%;
+            flex-direction: column;
+        }
+        .gallery_element{
+            width: 95%;
+
+        }
+
+    #hero_text h1{
+        font-size: 1.5em;
+    }
+
+    #hero_text h2{
+        font-size: 0.75em;
+    }
+
+    section p{
+        font-size: 0.5em;
+    }
+
+    .img_full img{
+        width: auto;
+        height: auto;
+        max-height: 70%;
+    }
+
+}
+
